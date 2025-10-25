@@ -1,21 +1,21 @@
 import { useState } from 'react'
 import './App.css'
-
+import bg from './assets/image1.jpg'  
 
 function App() {
   const initialUsers = [
     {
-      name: "John Doe",
+      name: "Nikka angela Bugna",
       role: "Frontend Developer",
       tasks: ["Fix navbar bug", "Update login page", "Review UI layout"],
     },
     {
-      name: "Maria Santos",
+      name: "emelyn Alegre",
       role: "Backend Developer",
       tasks: ["Optimize API", "Add user authentication", "Database cleanup"],
     },
     {
-      name: "Alex Cruz",
+      name: "Jovsky Reyes",
       role: "Project Manager",
       tasks: ["Check team progress", "Prepare weekly report", "Client meeting"],
     },
@@ -62,6 +62,7 @@ function App() {
   }
 
   return (
+    
     <div className="dashboard">
       {/* Header */}
       <header className="header">
